@@ -1,0 +1,87 @@
+:root {
+    --color-dark-red: #710707;
+    --color-bg-dark: #030303;
+    --color-gold: #9D8665;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+section:nth-of-type(2n-1) {
+    background-color: var(--color-bg-dark);
+    color: #FFF;
+}
+
+section:nth-of-type(2n)>h2 {
+    color: var(--color-gold)
+}
+
+button {
+    padding: 10px 20px;
+}
+
+button>span {
+    text-align: center;
+}
+
+button.accented {
+    background-color: var(--color-dark-red);
+    color: #FFF;
+}
+
+.forum {
+  font-family: "Forum", serif;
+}
+
+.text-spaced {
+    letter-spacing: 2px;
+}
+
+.text-sparse {
+    letter-spacing: 5px;
+}
+
+.text-thin {
+    font-weight: 200;
+}
+
+.text-lite {
+    /* color: #FFF; */
+    font-weight: 300;
+}
+
+.text-semibold {
+    font-weight: 500;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-small {
+    font-size: 18px;
+}
+
+.text-medium {
+    font-size: 22px;
+}
+
+.text-large {
+    font-size: 28px;
+}
+
+.text-huge {
+      font-size: 80px;
+}
+
